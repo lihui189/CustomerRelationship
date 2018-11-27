@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">电信客情</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="imageView_backgroud">背景图片</string>
+    <string name="tv_tittle">电信客情</string>
+    <string name="InfoPasswordInput">请输入密码</string>
+    <string name="InfoNameInput">请输入用户名</string>
+    <string name="tv_name">账号:</string>
+    <string name="tv_password">密码:</string>
+    <string name="cb_rememberpassword">记住密码</string>
+    <string name="cb_autologinx">自动登录</string>
+    <string name="bt_login">登录</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_ts">tsActivity</string>
+    <string name="title_activity_relation">RelationActivity</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_title">Title</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="region">
+        <item>全市</item>
+        <item>襄阳</item>
+        <item>襄州</item>
+        <item>枣阳</item>
+        <item>宜城</item>
+        <item>南漳</item>
+        <item>谷城</item>
+        <item>保康</item>
+        <item>老河口</item>
+    </string-array>
+    <string-array name="region2">
+        <item>现业</item>
+        <item>襄州</item>
+        <item>枣阳</item>
+        <item>宜城</item>
+        <item>南漳</item>
+        <item>谷城</item>
+        <item>保康</item>
+        <item>老河口</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>总经理助理</item>
+        <item>办公室</item>
+        <item>党群工作部</item>
+        <item>樊城营销中心</item>
+        <item>樊东营维中心</item>
+        <item>工会</item>
+        <item>行政保卫部</item>
+        <item>监察室</item>
+        <item>客户服务部</item>
+        <item>企业信息化部</item>
+        <item>人力资源部</item>
+        <item>市场拓展部</item>
+        <item>网络建设部</item>
+        <item>无线网优中心</item>
+        <item>系统集成部</item>
+        <item>线路维护中心</item>
+        <item>襄城营维中心</item>
+        <item>销售渠道服务部</item>
+        <item>新兴业务部</item>
+        <item>业务稽核中心</item>
+        <item>客户支撑中心</item>
+        <item>樊西营维中心</item>
+        <item>政企客户部</item>
+        <item>智慧城市</item>
+        <item>政企商客</item>
+        <item>固网部</item>
+        <item>高新区</item>
+    </string-array>
+    >
+</resources>

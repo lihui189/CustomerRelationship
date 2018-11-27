@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="19dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginBottom="100dp"
+    android:background="#EBEBEB"
+    tools:context="com.example.administrator.customerrelationship.ShowRelationDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/img03_03g_03"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:textSize="26sp"
+            android:text="电信员工客情信息"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imgExit"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/img04_03" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img03b_03"
+        android:padding="1dp"
+        android:orientation="horizontal">
+
+        <com.example.administrator.customerrelationship.CircleImageView
+            android:id="@+id/per_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2sp"
+            android:src="@drawable/preson_icon"
+            app:border_color="#00C5CD"
+            app:border_width="1dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tvPer_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:layout_marginLeft="5sp"
+                android:text="客户"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tvPer_number2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPer_name2"
+                android:layout_marginLeft="5sp"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                android:text="18995667861"
+                />
+
+            <TextView
+                android:id="@+id/tvPer_job2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:text="公司副总经理"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img03b_03"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/imageRealation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/relation" />
+        <TextView
+            android:id="@+id/tvRelation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageRealation"
+            android:textColor="#6699CC"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="同学" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img03b_03"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/imageViewDepart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dx" />
+        <TextView
+            android:id="@+id/tvdepart"
+            android:textColor="#00688B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageViewDepart"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewEmployee"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tvemployee"
+            android:src="@drawable/icon" />
+        <TextView
+            android:id="@+id/tvemployee"
+            android:textColor="#00688B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:text="TextView"
+            android:layout_marginRight="@dimen/fab_margin"/>
+    </RelativeLayout>
+
+</LinearLayout>

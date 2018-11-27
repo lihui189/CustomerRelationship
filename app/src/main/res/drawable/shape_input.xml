@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+        //设置圆角
+        <corners android:radius="20dp" />
+        //设置input的颜色
+        <solid android:color="#C1FFC1"/>
+        //设置button的大小
+        <size
+            android:height="60dp"
+            android:width="320dp" />
+        //设置button的内边距
+        <padding android:left="6dp"
+            android:right="6dp"
+            android:top="6dp"
+            android:bottom="6dp"/>
+</shape>
